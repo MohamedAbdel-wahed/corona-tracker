@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ebe7c2;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #e9da55c4;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #ebebeb8c;
+  user-select: none;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
